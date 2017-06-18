@@ -4,7 +4,7 @@ export default Ember.Controller.extend({
 	ajax: Ember.inject.service(),
     actions: {
     	uklonipatrolu: function(id){
-			this.get('ajax').request('http://localhost:8080/patrole/delete?id='+id, { method: 'GET' });
+			this.get('ajax').request('https://grupa8.herokuapp.com/patrole/delete?id='+id, { method: 'GET' });
     	}
     }
 });

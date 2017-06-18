@@ -24,7 +24,7 @@ export default Ember.Controller.extend({
 					//} 
 				});
 			Ember.$.ajax({
-				url: "http://localhost:8080/korisnici/register",
+				url: "https://grupa8.herokuapp.com/korisnici/register",
 				type: "POST",
 				contentType: "application/json",
 				data: podaci
